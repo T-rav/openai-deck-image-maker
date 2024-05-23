@@ -1,0 +1,9 @@
+[package]
+name = "ai_img_generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-openai = "0.21.0"
+dotenv = "0.15.0"
+tokio = { version = "1", features = ["full", "rt-multi-thread"] }
